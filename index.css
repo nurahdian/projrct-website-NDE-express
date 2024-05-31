@@ -1,0 +1,231 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+  }
+
+.col {
+    padding-top: 20px;
+    padding-left: 20px;  
+}
+
+.iconCols {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.fa {
+    width: 30px;
+    text-align: center;
+    margin: 2px 2px;
+    padding: 8px;
+    background: none;
+    color: #FC4F00;
+}
+
+.kataSambutan{
+    margin-left: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+.buttonn {
+    background-color: #FC4F00;
+    width: 150px;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 60px;
+    border-radius: 10px;
+    border-color: #FC4F00;
+}
+
+.cardUtama {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.buttonCard {
+    background-color: #373A40;
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.secSatu {
+    background-color: #FC4F00; 
+    color: white; 
+    width: 50%; 
+    height: 350px; 
+    text-align: center;
+    padding-top: 85px; 
+    text-align: start;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.secDua {
+    background-color: white;
+    width: 50%; 
+    height: 350px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.bagian {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jasa-pengiriman {
+    width: 1100px;
+    margin: auto;
+    position: absolute;
+}
+
+.tombol {
+    color: rgb(237, 246, 246);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+
+.bg-orange {
+    background-color: orange;
+  }
+  .bg-orange:hover {
+    opacity: 0.8;
+    background-color: orange;
+}
+}
+
+.gambar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+
+   .cos {
+        border-radius: 20px;
+   }
+       
+    .card-body {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(16, 0, 0);
+    }
+    .card-title {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 25px;
+        text-align:center;
+    }
+    .card-text {
+        font-family: 'Montserrat';
+        font-weight: 100;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+
+  /* VARIABLE */
+  :root {
+    --primary-color: #ff7e3e;
+  }
+  
+  /* GLOBAL CSS */
+  .primary-color {
+    color: var(--primary-color);
+  }
+  
+  .bg-primary-color {
+    background-color: var(--primary-color);
+  }
+  
+  .fs-7 {
+    font-size: 14px;
+  }
+  
+  .section {
+    margin-top: 6em;
+    margin-bottom: 6em;
+  }
+  
+  /* CSS PER SECTION */
+  
+  /* TAWARAN SECTION */
+  .container-tawaran {
+    background-color: var(--primary-color);
+  }
+  
+  /* FORM KIRIM */
+  .rounded-custom {
+    border-radius: 2em;
+  }
+  
+  /* CAROUSEL */
+  .no-brdr {
+    border: none;
+  }
+  
+  /* CAROUSEL 2 */
+  .mt-6 {
+    margin-top: 10em;
+  }
+  
+  /* IMAGE PROFILE */
+  .img-width-profile {
+    width: 100%;
+  }
+  
+  /* TESTIMONI */
+  .img-testi-size {
+    width: 70%;
+  }
+  
+  .img-testi-carousel {
+    width: 35%;
+  }
+  
+  .card-custom {
+    width: 12em;
+    height: 13em;
+  }
+
+footer{
+    font-size: 11px;
+    background-color:darkgray;
+    color: white;
+}
+
+
+.copy{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+  
+  @media screen and (max-width: 768px) {
+    .card-custom {
+      margin: 0 auto;
+      width: 15em;
+    }
+  }
+  
+
+
+
+
